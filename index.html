@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Jaime Lavín · Estrategia de marca personal</title>
+<meta name="description" content="El sistema que convierte la forma de pensar de Jaime Lavín en atención, confianza y conversaciones con familias que están por tomar la decisión más importante de su vida patrimonial.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="_ds/modernist-daca7977-5205-43ed-8c72-5558f3d9a926/styles.css">
+<script src="_ds/modernist-daca7977-5205-43ed-8c72-5558f3d9a926/_ds_bundle.js"></script>
+<script src="./image-slot.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..500,100;1,9..144,300..500,100&display=swap">
+<style>
+:root {
+  --jl-carbon: #1B1917; --jl-piedra: #8C8177; --jl-tierra: #B7AC9E; --jl-marfil: #F1ECE4;
+  --jl-font-display: 'Instrument Sans', 'Century Gothic', sans-serif;
+  --jl-font-editorial: 'Fraunces', Georgia, serif;
+  --color-bg: var(--jl-marfil);
+  --color-surface: color-mix(in srgb, var(--jl-tierra) 22%, var(--jl-marfil));
+  --color-text: var(--jl-carbon);
+  --color-accent: var(--jl-carbon);
+  --color-accent-600: color-mix(in srgb, var(--jl-carbon) 82%, var(--jl-piedra));
+  --color-accent-700: var(--jl-carbon);
+  --color-accent-800: var(--jl-carbon);
+  --color-divider: var(--jl-tierra);
+  --font-heading: var(--jl-font-display);
+  --font-heading-weight: 400;
+  --font-body: var(--jl-font-display);
+}
+html { scroll-behavior: smooth; }
+body { margin: 0; text-wrap: pretty; background: var(--jl-marfil); color: var(--jl-carbon); }
+a { color: var(--jl-carbon); }
+a:hover { color: var(--jl-piedra); }
+@media (max-width: 1000px) { [data-jl-navlinks] { display: none !important; } }
+@media (max-width: 760px) { #inicio > div[aria-hidden] { background: linear-gradient(0deg, var(--jl-carbon) 0%, color-mix(in srgb, var(--jl-carbon) 80%, transparent) 55%, color-mix(in srgb, var(--jl-carbon) 20%, transparent) 100%) !important; } }
+::selection { background: color-mix(in srgb, var(--jl-tierra) 55%, transparent); }
+</style>
+</helmet>
+
+<nav class="nav" style="position:sticky;top:0;z-index:10;background:var(--jl-carbon);color:var(--jl-marfil);border-bottom:2px solid color-mix(in srgb,var(--jl-tierra) 40%,var(--jl-carbon));padding-inline:clamp(20px,5vw,72px);gap:var(--space-6);">
+  <a href="#inicio" class="nav-brand" style="display:flex;align-items:center;gap:var(--space-3);color:var(--jl-marfil);">
+    <img src="assets/jl-isotipo.webp" alt="JL." style="width:36px;height:36px;object-fit:contain;filter:invert(1);mix-blend-mode:screen;">
+    <span style="display:flex;flex-direction:column;gap:2px;">
+      <span style="font-size:16px;font-weight:500;">Jaime Lavín</span>
+      <span style="font-size:9px;font-weight:400;letter-spacing:0.28em;color:var(--jl-tierra);">ARQUITECTURA PARA LA VIDA</span>
+    </span>
+  </a>
+  <div data-jl-navlinks="" style="display:flex;gap:var(--space-4);overflow-x:auto;scrollbar-width:none;min-width:0;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;">
+    <a href="#oportunidad" style="color:var(--jl-marfil);" style-hover="color:var(--jl-tierra);">Oportunidad</a>
+    <a href="#persona" style="color:var(--jl-marfil);" style-hover="color:var(--jl-tierra);">Persona</a>
+    <a href="#posicionamiento" style="color:var(--jl-marfil);" style-hover="color:var(--jl-tierra);">Posicionamiento</a>
+    <a href="#contenido" style="color:var(--jl-marfil);" style-hover="color:var(--jl-tierra);">Contenido</a>
+    <a href="#ruta" style="color:var(--jl-marfil);" style-hover="color:var(--jl-tierra);">Ruta</a>
+  </div>
+</nav>
+
+<section id="inicio" data-screen-label="01 Portada" style="position:relative;overflow:hidden;background:var(--jl-carbon);color:var(--jl-marfil);min-height:min(92vh,960px);display:flex;align-items:flex-end;">
+  <img src="assets/hero-jaime.webp" alt="Jaime de pie en un terreno al atardecer, mirando el lago y las montañas" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:30% center;display:block;">
+  <div aria-hidden="true" style="position:absolute;inset:0;background:linear-gradient(90deg,color-mix(in srgb,var(--jl-carbon) 10%,transparent) 0%,color-mix(in srgb,var(--jl-carbon) 35%,transparent) 38%,color-mix(in srgb,var(--jl-carbon) 88%,transparent) 62%,var(--jl-carbon) 100%),linear-gradient(0deg,color-mix(in srgb,var(--jl-carbon) 70%,transparent) 0%,transparent 45%);"></div>
+  <div style="position:relative;width:100%;max-width:1200px;margin:0 auto;padding:140px clamp(20px,5vw,72px) 80px;display:flex;justify-content:flex-end;">
+  <div data-jl-herotext="" style="width:100%;max-width:600px;">
+    <div style="display:flex;flex-wrap:wrap;gap:var(--space-3);margin-bottom:48px;font-size:12px;letter-spacing:0.24em;text-transform:uppercase;color:var(--jl-tierra);">
+      <span>Estrategia de marca personal · Core Method</span>
+      <span>· Octubre de 2026</span>
+    </div>
+    <h1 style="font-family:var(--jl-font-display);font-weight:400;font-size:clamp(44px,6.6vw,92px);line-height:1.04;letter-spacing:-0.02em;margin:0;max-width:14ch;color:var(--jl-marfil);font-size:clamp(40px,5.2vw,76px);text-wrap:balance;">El consejero al que llamas antes de decidir</h1>
+    <p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:clamp(19px,1.7vw,23px);line-height:1.55;max-width:52ch;margin:44px 0 0;color:var(--jl-marfil);">Jaime no quiere ser recordado como un arquitecto más. Quiere ser la persona a la que una familia llama antes de comprar un terreno, y quien comanda la misión cuando decide construir.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:var(--space-3);margin-top:40px;">
+      <a href="#oportunidad" class="btn" style="background:var(--jl-marfil);color:var(--jl-carbon);font-weight:500;padding:12px 20px;" style-hover="background:var(--jl-tierra);">Ver la estrategia</a>
+      <a href="#siguiente-paso" class="btn" style="border:1px solid var(--jl-piedra);color:var(--jl-marfil);font-weight:500;padding:12px 20px;" style-hover="border-color:var(--jl-tierra);background:color-mix(in srgb,var(--jl-marfil) 8%,transparent);">Lo que necesitamos de Jaime</a>
+    </div>
+    <sc-if value="{{ showNotes }}" hint-placeholder-val="{{ true }}">
+      <p style="font-size:13px;line-height:1.5;margin:32px 0 0;max-width:72ch;color:var(--jl-tierra);">Supuesto por confirmar con Elías · Conversión única: que Jaime valide la estrategia y agende la sesión de cierre del Sprint 1.</p>
+    </sc-if>
+  </div>
+  </div>
+</section>
+
+<div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px);">
+
+  <section id="oportunidad" data-screen-label="02 Oportunidad" style="padding:88px 0;display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">
+      <span style="font-weight:600;color:var(--jl-carbon);">02</span><span>Por qué esta estrategia</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-0.015em;margin:0 0 28px;">Un lugar que nadie ocupa</h2>
+      <p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:20px;line-height:1.6;max-width:58ch;margin:0 0 48px;">Quien va a comprar terreno, construir o heredar una casa pregunta en internet cuánto cuesta, cuánto tarda y qué revisar para no equivocarse. Casi nadie responde la pregunta que importa: <em style="font-weight:400;">si ese lugar y esa casa van a funcionar para la vida de esa familia.</em></p>
+      <p style="font-size:12px;letter-spacing:0.2em;text-transform:uppercase;margin:0 0 16px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Tres hallazgos de la investigación</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px;">
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:20px;">
+          <h3 style="font-size:19px;font-weight:500;line-height:1.25;margin:0 0 12px;">La conversación grande está vacía.</h3>
+          <p style="font-size:15.5px;line-height:1.6;margin:0;">Ninguna marca personal con más de un millón de seguidores habla con profundidad de la decisión patrimonial, del legado en la casa o de la franqueza aunque se pierda el proyecto.</p>
+        </div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:20px;">
+          <h3 style="font-size:19px;font-weight:500;line-height:1.25;margin:0 0 12px;">El tema más buscado es de Jaime.</h3>
+          <p style="font-size:15.5px;line-height:1.6;margin:0;">En Google Trends, "uso de suelo" es el término más fuerte del estudio y va en aumento. Es exactamente el momento antes de decidir.</p>
+        </div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:20px;">
+          <h3 style="font-size:19px;font-weight:500;line-height:1.25;margin:0 0 12px;">La gente busca despachos por su nombre.</h3>
+          <p style="font-size:15.5px;line-height:1.6;margin:0;">Hoy la búsqueda de "Jaime Lavín" está en cero. Esa es la línea de salida.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="persona" data-screen-label="03 Persona" style="border-top:2px solid var(--jl-tierra);padding:88px 0;display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">
+      <span style="font-weight:600;color:var(--jl-carbon);">03</span><span>Quién es Jaime</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-0.015em;margin:0 0 44px;">Primero la persona, después la marca</h2>
+      <div style="display:flex;flex-wrap:wrap;gap:40px;">
+        <div style="flex:3 1 320px;min-width:0;display:flex;flex-direction:column;">
+          <div style="border-top:2px solid var(--jl-tierra);padding:18px 0 26px;">
+            <h3 style="font-size:17px;font-weight:500;margin:0 0 8px;">Por qué hace lo que hace.</h3>
+            <p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:18px;line-height:1.55;margin:0;">Para que todo el mundo pueda vivir la experiencia de las cosas hermosas, y para cumplirle el sueño a quien le confía su patrimonio.</p>
+          </div>
+          <div style="border-top:2px solid var(--jl-tierra);padding:18px 0 26px;">
+            <h3 style="font-size:17px;font-weight:500;margin:0 0 8px;">Cómo trabaja.</h3>
+            <p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:18px;line-height:1.55;margin:0;">Escucha hasta leer a la persona, dice la verdad aunque no le convenga, mira lo que el cliente no ve y trabaja sin ego, en equipo.</p>
+          </div>
+          <div style="border-top:2px solid var(--jl-tierra);padding:18px 0 26px;">
+            <h3 style="font-size:17px;font-weight:500;margin:0 0 8px;">Qué entrega.</h3>
+            <p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:18px;line-height:1.55;margin:0;">Acompañamiento en las decisiones de vida: elegir el terreno, imaginar, construir, habitar y dejar legado.</p>
+          </div>
+        </div>
+        <sc-if value="{{ showImages }}" hint-placeholder-val="{{ true }}">
+          <figure style="flex:2 1 240px;margin:0;">
+            <div style="aspect-ratio:4/5;background:var(--color-surface);"><img src="assets/jaime-estudio.webp" alt="Jaime en su estudio revisando planos, rodeado de esculturas y una maqueta" style="width:100%;height:100%;object-fit:cover;object-position:40% center;display:block;"></div>
+            <figcaption style="font-size:12px;margin-top:var(--space-2);color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Jaime en su estudio</figcaption>
+          </figure>
+        </sc-if>
+      </div>
+      <p style="font-size:12px;letter-spacing:0.2em;text-transform:uppercase;margin:56px 0 16px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Sus tres valores</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:32px;">
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;">
+          <p style="font-family:var(--jl-font-editorial);font-size:36px;font-weight:300;line-height:1;margin:0 0 16px;color:var(--jl-piedra);">1</p>
+          <h3 style="font-size:19px;font-weight:500;margin:0 0 8px;">Libertad.</h3>
+          <p style="font-size:15.5px;line-height:1.6;margin:0;">De pensamiento, de diseño y de acción. "Nunca existe algo imposible", con las cosas en orden.</p>
+        </div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;">
+          <p style="font-family:var(--jl-font-editorial);font-size:36px;font-weight:300;line-height:1;margin:0 0 16px;color:var(--jl-piedra);">2</p>
+          <h3 style="font-size:19px;font-weight:500;margin:0 0 8px;">Viajar en equipo.</h3>
+          <p style="font-size:15.5px;line-height:1.6;margin:0;">"Si quieres llegar rápido, ve solo; si quieres llegar lejos, ve acompañado."</p>
+        </div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;">
+          <p style="font-family:var(--jl-font-editorial);font-size:36px;font-weight:300;line-height:1;margin:0 0 16px;color:var(--jl-piedra);">3</p>
+          <h3 style="font-size:19px;font-weight:500;margin:0 0 8px;">Crecimiento constante.</h3>
+          <p style="font-size:15.5px;line-height:1.6;margin:0;">Los ojos abiertos para aprender de todo.</p>
+        </div>
+      </div>
+      <div style="background:var(--color-surface);padding:28px;margin-top:56px;">
+        <h3 style="font-size:12px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;margin:0 0 12px;">Su historia de origen</h3>
+        <p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:18px;line-height:1.6;margin:0;max-width:62ch;">Sin arquitectos en la familia. De joven fundó un club de servicio donde aprendió a relacionarse con todo tipo de personas; esa misma asociación lo becó para estudiar en Italia. De Italia volvió con la decisión de emprender, y desde 1997 dirige su despacho.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="posicionamiento" data-screen-label="04 Posicionamiento" style="border-top:2px solid var(--jl-tierra);padding:88px 0;display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">
+      <span style="font-weight:600;color:var(--jl-carbon);">04</span><span>Posicionamiento</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-0.015em;margin:0 0 16px;">El sabio que recibe en su mesa</h2>
+      <p style="font-size:17px;line-height:1.6;margin:0 0 36px;"><strong style="font-weight:600;">Arquetipo:</strong> Sabio, con expresión de Anfitrión y un toque de Mago.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:32px;">
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;"><h3 style="font-size:22px;font-weight:400;margin:0 0 8px;">Sabio</h3><p style="font-size:15.5px;line-height:1.6;margin:0;">Su autoridad es el consejo franco.</p></div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;"><h3 style="font-size:22px;font-weight:400;margin:0 0 8px;">Anfitrión</h3><p style="font-size:15.5px;line-height:1.6;margin:0;">Recibe, conversa y hace que nadie quede fuera de la mesa.</p></div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;"><h3 style="font-size:22px;font-weight:400;margin:0 0 8px;">Mago</h3><p style="font-size:15.5px;line-height:1.6;margin:0;">Cree que nada es imposible.</p></div>
+      </div>
+      <figure style="margin:64px 0;">
+        <p style="font-size:12px;letter-spacing:0.2em;text-transform:uppercase;margin:0 0 20px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Frase que guía al equipo</p>
+        <blockquote style="margin:0;font-family:var(--jl-font-editorial);font-style:italic;font-weight:300;font-size:clamp(24px,2.8vw,34px);line-height:1.35;max-width:34ch;">Para familias que van a decidir dónde y cómo vivir, Jaime Lavín es el arquitecto que mira lo que ellos todavía no ven y les dice la verdad aunque no le convenga.</blockquote>
+      </figure>
+      <p style="font-size:12px;letter-spacing:0.2em;text-transform:uppercase;margin:0 0 8px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Lo que lo distingue, con prueba</p>
+      <div style="overflow-x:auto;">
+        <table class="table" style="width:100%;border-collapse:collapse;font-size:15.5px;line-height:1.5;">
+          <thead><tr><th style="width:34%;border-bottom:2px solid var(--jl-carbon);">Lo que lo distingue</th><th style="border-bottom:2px solid var(--jl-carbon);">La historia que lo prueba</th></tr></thead>
+          <tbody>
+            <tr><td style="font-weight:500;vertical-align:top;">Mira antes de decidir</td><td style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;">Una casa espectacular construida en el lugar equivocado: "¿por qué no le llamamos antes de comprar?"</td></tr>
+            <tr><td style="font-weight:500;vertical-align:top;">Ve lo que el cliente no ve</td><td style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;">El cliente medía metros; Jaime le mostró que solo desde ese terreno se veían las montañas.</td></tr>
+            <tr><td style="font-weight:500;vertical-align:top;">Dice la verdad aunque pierda el proyecto</td><td style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;">"Piénsalo bien: una casa de playa son dos días de felicidad."</td></tr>
+            <tr><td style="font-weight:500;vertical-align:top;">Escuchar es diseñar</td><td style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;">Un miedo a la oscuridad cambió la luz de toda la casa.</td></tr>
+            <tr><td style="font-weight:500;vertical-align:top;">Liderazgo sin ego</td><td style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;">"Las palabras convencen, pero el ejemplo arrastra."</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:12px;letter-spacing:0.2em;text-transform:uppercase;margin:64px 0 16px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Frases de marca en prueba</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px;">
+        <div style="border-top:2px solid var(--jl-tierra);padding-top:18px;">
+          <p style="font-size:12px;letter-spacing:0.16em;text-transform:uppercase;margin:0 0 12px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Variante A</p>
+          <p style="font-family:var(--jl-font-editorial);font-style:italic;font-weight:300;font-size:22px;line-height:1.35;margin:0;">Una vida extraordinaria merece un lugar para vivirla.</p>
+        </div>
+        <div style="border-top:2px solid var(--jl-tierra);padding-top:18px;">
+          <p style="font-size:12px;letter-spacing:0.16em;text-transform:uppercase;margin:0 0 12px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Variante B</p>
+          <p style="font-family:var(--jl-font-editorial);font-style:italic;font-weight:300;font-size:22px;line-height:1.35;margin:0;">Del terreno al último detalle.</p>
+          <sc-if value="{{ showNotes }}" hint-placeholder-val="{{ true }}"><p style="font-size:13px;line-height:1.45;margin:12px 0 0;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Pendiente de confirmar con Jaime qué etapas promete.</p></sc-if>
+        </div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;">
+          <p style="font-size:12px;letter-spacing:0.16em;text-transform:uppercase;margin:0 0 12px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Llamado a la acción</p>
+          <p style="font-size:22px;font-weight:500;line-height:1.3;margin:0;">Habla con Jaime antes de decidir.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="territorios" data-screen-label="05 Territorios" style="border-top:2px solid var(--jl-tierra);padding:88px 0;display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">
+      <span style="font-weight:600;color:var(--jl-carbon);">05</span><span>Territorios</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-0.015em;margin:0 0 20px;">De qué habla Jaime</h2>
+      <p style="font-size:17px;line-height:1.6;max-width:60ch;margin:0 0 44px;">Seis territorios donde Jaime tiene derecho a opinar porque lo ha vivido. El primero acerca a la conversación; los demás construyen conexión y autoridad.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));border-top:2px solid var(--jl-carbon);border-left:2px solid var(--jl-tierra);">
+        <div style="padding:24px;border-right:2px solid var(--jl-tierra);border-bottom:2px solid var(--jl-tierra);background:var(--color-surface);display:flex;flex-direction:column;gap:12px;">
+          <span style="font-size:12px;letter-spacing:0.16em;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">01 · LA PUERTA</span>
+          <h3 style="font-size:20px;font-weight:500;margin:0;">Antes de decidir.</h3>
+          <p style="font-size:14.5px;line-height:1.5;margin:0;">Terreno, compra, remodelación y segunda casa.</p>
+          <p style="font-family:var(--jl-font-editorial);font-style:italic;font-weight:300;font-size:17px;line-height:1.45;margin:0;">"La decisión más importante de tu casa se toma cuando eliges dónde."</p>
+          <dl style="margin:auto 0 0;padding-top:14px;border-top:1px solid var(--jl-tierra);display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 12px;font-size:13px;line-height:1.4;"><dt style="letter-spacing:0.1em;text-transform:uppercase;font-size:11px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Función</dt><dd style="margin:0;">Confianza y conversión</dd><dt style="letter-spacing:0.1em;text-transform:uppercase;font-size:11px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Canal</dt><dd style="margin:0;">Instagram, web</dd></dl>
+        </div>
+        <div style="padding:24px;border-right:2px solid var(--jl-tierra);border-bottom:2px solid var(--jl-tierra);display:flex;flex-direction:column;gap:12px;">
+          <span style="font-size:12px;letter-spacing:0.16em;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">02</span>
+          <h3 style="font-size:20px;font-weight:500;margin:0;">Legado y arte.</h3>
+          <p style="font-size:14.5px;line-height:1.5;margin:0;">El arte en la casa y lo que una familia hereda. Es el territorio que Jaime eligió como número uno.</p>
+          <p style="font-family:var(--jl-font-editorial);font-style:italic;font-weight:300;font-size:17px;line-height:1.45;margin:0;">"Cuando una familia hereda, todos quieren los cuadros."</p>
+          <dl style="margin:auto 0 0;padding-top:14px;border-top:1px solid var(--jl-tierra);display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 12px;font-size:13px;line-height:1.4;"><dt style="letter-spacing:0.1em;text-transform:uppercase;font-size:11px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Función</dt><dd style="margin:0;">Conexión</dd><dt style="letter-spacing:0.1em;text-transform:uppercase;font-size:11px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Canal</dt><dd style="margin:0;">Instagram, YouTube</dd></dl>
+        </div>
+        <div style="padding:24px;border-right:2px solid var(--jl-tierra);border-bottom:2px solid var(--jl-tierra);display:flex;flex-direction:column;gap:12px;">
+          <span style="font-size:12px;letter-spacing:0.16em;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">03</span>
+          <h3 style="font-size:20px;font-weight:500;margin:0;">Educar la mirada.</h3>
+          <p style="font-size:14.5px;line-height:1.5;margin:0;">Proporción, paisaje y belleza.</p>
+          <p style="font-family:var(--jl-font-editorial);font-style:italic;font-weight:300;font-size:17px;line-height:1.45;margin:0;">"Tú mides metros; yo miro lo que vas a ver desde ahí."</p>
+          <dl style="margin:auto 0 0;padding-top:14px;border-top:1px solid var(--jl-tierra);display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 12px;font-size:13px;line-height:1.4;"><dt style="letter-spacing:0.1em;text-transform:uppercase;font-size:11px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Función</dt><dd style="margin:0;">Autoridad</dd><dt style="letter-spacing:0.1em;text-transform:uppercase;font-size:11px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Canal</dt><dd style="margin:0;">Instagram, LinkedIn</dd></dl>
+        </div>
+        <div style="padding:24px;border-right:2px solid var(--jl-tierra);border-bottom:2px solid var(--jl-tierra);display:flex;flex-direction:column;gap:12px;">
+          <span style="font-size:12px;letter-spacing:0.16em;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">04</span>
+          <h3 style="font-size:20px;font-weight:500;margin:0;">Liderazgo y equipo.</h3>
+          <p style="font-size:14.5px;line-height:1.5;margin:0;">Liderazgo, resiliencia y equipo.</p>
+          <p style="font-family:var(--jl-font-editorial);font-style:italic;font-weight:300;font-size:17px;line-height:1.45;margin:0;">"Cuando pierdas, nunca pierdas el aprendizaje."</p>
+          <dl style="margin:auto 0 0;padding-top:14px;border-top:1px solid var(--jl-tierra);display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 12px;font-size:13px;line-height:1.4;"><dt style="letter-spacing:0.1em;text-transform:uppercase;font-size:11px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Función</dt><dd style="margin:0;">Autoridad profesional</dd><dt style="letter-spacing:0.1em;text-transform:uppercase;font-size:11px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Canal</dt><dd style="margin:0;">LinkedIn, ponencias</dd></dl>
+        </div>
+        <div style="padding:24px;border-right:2px solid var(--jl-tierra);border-bottom:2px solid var(--jl-tierra);display:flex;flex-direction:column;gap:12px;">
+          <span style="font-size:12px;letter-spacing:0.16em;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">05</span>
+          <h3 style="font-size:20px;font-weight:500;margin:0;">El arte de recibir.</h3>
+          <p style="font-size:14.5px;line-height:1.5;margin:0;">Jaime como anfitrión.</p>
+          <p style="font-family:var(--jl-font-editorial);font-style:italic;font-weight:300;font-size:17px;line-height:1.45;margin:0;">"Una buena casa hace que nadie se quede fuera de la conversación."</p>
+          <dl style="margin:auto 0 0;padding-top:14px;border-top:1px solid var(--jl-tierra);display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 12px;font-size:13px;line-height:1.4;"><dt style="letter-spacing:0.1em;text-transform:uppercase;font-size:11px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Función</dt><dd style="margin:0;">Conexión</dd><dt style="letter-spacing:0.1em;text-transform:uppercase;font-size:11px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Canal</dt><dd style="margin:0;">Instagram, eventos</dd></dl>
+        </div>
+        <div style="padding:24px;border-right:2px solid var(--jl-tierra);border-bottom:2px solid var(--jl-tierra);display:flex;flex-direction:column;gap:12px;">
+          <span style="font-size:12px;letter-spacing:0.16em;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">06</span>
+          <h3 style="font-size:20px;font-weight:500;margin:0;">Lo imposible.</h3>
+          <p style="font-size:14.5px;line-height:1.5;margin:0;">Visión, sueños y megaproyectos.</p>
+          <p style="font-family:var(--jl-font-editorial);font-style:italic;font-weight:300;font-size:17px;line-height:1.45;margin:0;">"Nunca existe algo imposible."</p>
+          <dl style="margin:auto 0 0;padding-top:14px;border-top:1px solid var(--jl-tierra);display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 12px;font-size:13px;line-height:1.4;"><dt style="letter-spacing:0.1em;text-transform:uppercase;font-size:11px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Función</dt><dd style="margin:0;">Diferenciación</dd><dt style="letter-spacing:0.1em;text-transform:uppercase;font-size:11px;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Canal</dt><dd style="margin:0;">Instagram, LinkedIn (familia Manifiestos)</dd></dl>
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="etapas" data-screen-label="06 Etapas del cliente" style="border-top:2px solid var(--jl-tierra);padding:88px 0;display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">
+      <span style="font-weight:600;color:var(--jl-carbon);">06</span><span>5 etapas del cliente</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-0.015em;margin:0 0 20px;">Las 5 etapas del cliente</h2>
+      <p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:clamp(19px,1.7vw,23px);line-height:1.55;max-width:56ch;margin:0 0 40px;">Elegir, Imaginar, Construir, Vivir y Trascender son las cinco etapas del viaje del cliente. Tener tesis en todas asegura contenido para cada momento en que alguien puede encontrar a Jaime.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:40px 32px;">
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;display:flex;flex-direction:column;gap:14px;min-width:0;">
+          <div style="display:flex;flex-direction:column;gap:4px;"><span style="font-size:12px;font-feature-settings:'tnum' 1;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">01</span><h3 style="font-size:22px;font-weight:500;margin:0;">Elegir</h3></div>
+          <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;">
+            <li style="padding:12px 0;border-bottom:1px solid var(--jl-tierra);display:flex;flex-direction:column;gap:4px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;line-height:1.45;">El error más costoso ocurre antes del primer trazo: elegir dónde.</span><span style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Prueba: Casa de los tíos</span></li>
+            <li style="padding:12px 0;border-bottom:1px solid var(--jl-tierra);display:flex;flex-direction:column;gap:4px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;line-height:1.45;">Tú mides metros; yo miro lo que vas a ver desde ahí.</span><span style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Prueba: Terreno con montañas</span></li>
+            <li style="padding:12px 0;border-bottom:1px solid var(--jl-tierra);display:flex;flex-direction:column;gap:4px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;line-height:1.45;">Remodelar una casa vieja para ahorrar casi nunca es el camino conveniente.</span></li>
+            <li style="padding:12px 0;border-bottom:1px solid var(--jl-tierra);display:flex;flex-direction:column;gap:4px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;line-height:1.45;">Antes de una casa de playa, pregúntate si quieres otra cosa que atender en tu vida.</span><span style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Prueba: Llamada de Acapulco</span></li>
+            <li style="padding:12px 0;display:flex;flex-direction:column;gap:4px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;line-height:1.45;">No empieces por la casa: empieza por saber qué necesitas para ser feliz.</span></li>
+          </ul>
+        </div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;display:flex;flex-direction:column;gap:14px;min-width:0;">
+          <div style="display:flex;flex-direction:column;gap:4px;"><span style="font-size:12px;font-feature-settings:'tnum' 1;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">02</span><h3 style="font-size:22px;font-weight:500;margin:0;">Imaginar</h3></div>
+          <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;">
+            <li style="padding:12px 0;border-bottom:1px solid var(--jl-tierra);display:flex;flex-direction:column;gap:4px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;line-height:1.45;">Escuchar es diseñar: un miedo dicho de pasada cambia la planta completa.</span><span style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Prueba: Miedo a la oscuridad</span></li>
+            <li style="padding:12px 0;display:flex;flex-direction:column;gap:4px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;line-height:1.45;">La recámara en planta baja que hoy no necesitas es la que te deja quedarte en tu casa.</span><span style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Prueba: Dolor de espalda</span></li>
+          </ul>
+        </div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;display:flex;flex-direction:column;gap:14px;min-width:0;">
+          <div style="display:flex;flex-direction:column;gap:4px;"><span style="font-size:12px;font-feature-settings:'tnum' 1;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">03</span><h3 style="font-size:22px;font-weight:500;margin:0;">Construir</h3></div>
+          <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;">
+            <li style="padding:12px 0;display:flex;flex-direction:column;gap:4px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;line-height:1.45;">El plazo honesto es parte del diseño, no un argumento de venta.</span></li>
+          </ul>
+        </div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;display:flex;flex-direction:column;gap:14px;min-width:0;">
+          <div style="display:flex;flex-direction:column;gap:4px;"><span style="font-size:12px;font-feature-settings:'tnum' 1;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">04</span><h3 style="font-size:22px;font-weight:500;margin:0;">Vivir</h3></div>
+          <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;">
+            <li style="padding:12px 0;border-bottom:1px solid var(--jl-tierra);display:flex;flex-direction:column;gap:4px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;line-height:1.45;">Hay que vivir bonito, aunque sea debajo de una escalera.</span></li>
+            <li style="padding:12px 0;display:flex;flex-direction:column;gap:4px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;line-height:1.45;">Una buena casa hace que nadie se quede fuera de la conversación.</span><span style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Prueba: La cena</span></li>
+          </ul>
+        </div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;display:flex;flex-direction:column;gap:14px;min-width:0;">
+          <div style="display:flex;flex-direction:column;gap:4px;"><span style="font-size:12px;font-feature-settings:'tnum' 1;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">05</span><h3 style="font-size:22px;font-weight:500;margin:0;">Trascender</h3></div>
+          <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;">
+            <li style="padding:12px 0;border-bottom:1px solid var(--jl-tierra);display:flex;flex-direction:column;gap:4px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;line-height:1.45;">Cuando una familia hereda, nadie pelea por la plata: todos quieren los cuadros.</span><span style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Prueba: Herencia de su madre</span></li>
+            <li style="padding:12px 0;border-bottom:1px solid var(--jl-tierra);display:flex;flex-direction:column;gap:4px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;line-height:1.45;">Quien construye su casa, sin saberlo, está construyendo su legado.</span></li>
+            <li style="padding:12px 0;display:flex;flex-direction:column;gap:4px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:17px;line-height:1.45;">Nada es imposible si las cosas van en orden.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<section id="metodo" data-screen-label="07 Método" style="background:var(--jl-carbon);color:var(--jl-marfil);">
+  <div style="max-width:1200px;margin:0 auto;padding:88px clamp(20px,5vw,72px);display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:var(--jl-tierra);">
+      <span style="font-weight:600;color:var(--jl-marfil);">07</span><span>Cómo funciona cada pieza</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-0.015em;margin:0 0 20px;color:var(--jl-marfil);">Una pieza, una idea, seis momentos</h2>
+      <p style="font-size:17px;line-height:1.6;max-width:60ch;margin:0 0 44px;color:var(--jl-marfil);">Cada pieza sigue el mismo orden. Cambia el tema; la estructura se mantiene.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:0;border-top:2px solid var(--jl-marfil);">
+        <div style="padding:20px 20px 24px 0;border-right:2px solid color-mix(in srgb,var(--jl-tierra) 35%,var(--jl-carbon));display:flex;flex-direction:column;gap:10px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:32px;color:var(--jl-tierra);">1</span><h3 style="font-size:18px;font-weight:500;margin:0;color:var(--jl-marfil);">Gancho.</h3><p style="font-size:14.5px;line-height:1.5;margin:0;">Una frase que rompe una creencia en los primeros 3 segundos.</p></div>
+        <div style="padding:20px 20px 24px 20px;border-right:2px solid color-mix(in srgb,var(--jl-tierra) 35%,var(--jl-carbon));display:flex;flex-direction:column;gap:10px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:32px;color:var(--jl-tierra);">2</span><h3 style="font-size:18px;font-weight:500;margin:0;color:var(--jl-marfil);">Persona.</h3><p style="font-size:14.5px;line-height:1.5;margin:0;">Jaime real, a cámara.</p></div>
+        <div style="padding:20px 20px 24px 20px;border-right:2px solid color-mix(in srgb,var(--jl-tierra) 35%,var(--jl-carbon));display:flex;flex-direction:column;gap:10px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:32px;color:var(--jl-tierra);">3</span><h3 style="font-size:18px;font-weight:500;margin:0;color:var(--jl-marfil);">Postura.</h3><p style="font-size:14.5px;line-height:1.5;margin:0;">La idea dicha con claridad.</p></div>
+        <div style="padding:20px 20px 24px 20px;border-right:2px solid color-mix(in srgb,var(--jl-tierra) 35%,var(--jl-carbon));display:flex;flex-direction:column;gap:10px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:32px;color:var(--jl-tierra);">4</span><h3 style="font-size:18px;font-weight:500;margin:0;color:var(--jl-marfil);">Umbral.</h3><p style="font-size:14.5px;line-height:1.5;margin:0;">La prueba visible: una obra, una historia o una escena generada que muestra lo que todavía no existe.</p></div>
+        <div style="padding:20px 20px 24px 20px;border-right:2px solid color-mix(in srgb,var(--jl-tierra) 35%,var(--jl-carbon));display:flex;flex-direction:column;gap:10px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:32px;color:var(--jl-tierra);">5</span><h3 style="font-size:18px;font-weight:500;margin:0;color:var(--jl-marfil);">Sentencia.</h3><p style="font-size:14.5px;line-height:1.5;margin:0;">La frase que el espectador se lleva.</p></div>
+        <div style="padding:20px 0 24px 20px;display:flex;flex-direction:column;gap:10px;"><span style="font-family:var(--jl-font-editorial);font-weight:300;font-size:32px;color:var(--jl-tierra);">6</span><h3 style="font-size:18px;font-weight:500;margin:0;color:var(--jl-marfil);">Marca.</h3><p style="font-size:14.5px;line-height:1.5;margin:0;">Lazza aparece al final, como consecuencia.</p></div>
+      </div>
+      <p style="font-family:var(--jl-font-editorial);font-style:italic;font-weight:300;font-size:22px;line-height:1.45;max-width:46ch;margin:48px 0 0;color:var(--jl-marfil);">El video genera atención y confianza; la venta ocurre después, en la web o en una conversación.</p>
+      <sc-if value="{{ showNotes }}" hint-placeholder-val="{{ true }}"><p style="font-size:13px;line-height:1.5;margin:24px 0 0;max-width:70ch;color:var(--jl-tierra);">Pendiente (DesignJaimeLavin §8): existen tres diagramas Core Method distintos. Unificar antes de pasar a guion de producción.</p></sc-if>
+    </div>
+  </div>
+</section>
+
+<div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px);">
+
+  <section id="contenido" data-screen-label="08 Contenido" style="padding:88px 0;display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">
+      <span style="font-weight:600;color:var(--jl-carbon);">08</span><span>Tipos de contenido</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-0.015em;margin:0 0 20px;">Lo que vas a ver de Jaime</h2>
+      <p style="font-size:17px;line-height:1.6;margin:0 0 40px;">Seis tipos de contenido, cada uno con un trabajo distinto.</p>
+
+      <article style="border-top:2px solid var(--jl-carbon);padding:32px 0 40px;display:flex;flex-wrap:wrap;gap:32px;">
+        <div style="flex:3 1 320px;min-width:0;display:flex;flex-direction:column;gap:14px;">
+          <span style="font-size:12px;letter-spacing:0.16em;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">7.1</span>
+          <h3 style="font-size:26px;font-weight:400;margin:0;">Guías de decisión</h3>
+          <dl style="display:grid;grid-template-columns:minmax(110px,auto) minmax(0,1fr);gap:10px 20px;margin:8px 0 0;font-size:15px;line-height:1.55;">
+            <dt style="font-weight:500;">Para qué sirve</dt><dd style="margin:0;">generar confianza y acercar la conversación.</dd>
+            <dt style="font-weight:500;">De qué habla</dt><dd style="margin:0;">el terreno, la compra, remodelar o empezar de nuevo, la segunda casa.</dd>
+            <dt style="font-weight:500;">Formato</dt><dd style="margin:0;">video de 30 a 45 segundos con Jaime a cámara, y carrusel de preguntas.</dd>
+            <dt style="font-weight:500;">Dónde vive</dt><dd style="margin:0;">Instagram, Facebook y la web.</dd>
+            <dt style="font-weight:500;">Historias listas</dt><dd style="margin:0;">la casa en el lugar equivocado, el terreno con montañas, la casa de playa, la casa que se transformó sin tirar un muro.</dd>
+          </dl>
+        </div>
+        <sc-if value="{{ showImages }}" hint-placeholder-val="{{ true }}">
+          <figure style="flex:0 1 200px;margin:0;"><div style="position:relative;aspect-ratio:9/16;background:var(--color-surface);overflow:hidden;"><img src="assets/jaime-terreno-cliente.webp" alt="Jaime caminando un terreno con un cliente, señalando el horizonte" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;transition:opacity 600ms ease;opacity:{{ slideA }};"><img src="assets/jaime-reel-antes-de-decidir.webp" alt="Reel de Jaime: Antes de decidir, conversemos" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;transition:opacity 600ms ease;opacity:{{ slideB }};"></div><figcaption style="font-size:12px;margin-top:var(--space-2);color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">9:16 · Guías de decisión</figcaption></figure>
+        </sc-if>
+      </article>
+
+      <article style="border-top:2px solid var(--jl-tierra);padding:32px 0 40px;display:flex;flex-wrap:wrap;gap:32px;">
+        <div style="flex:3 1 320px;min-width:0;display:flex;flex-direction:column;gap:14px;">
+          <span style="font-size:12px;letter-spacing:0.16em;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">7.2</span>
+          <h3 style="font-size:26px;font-weight:400;margin:0;">Historias que enseñan</h3>
+          <dl style="display:grid;grid-template-columns:minmax(110px,auto) minmax(0,1fr);gap:10px 20px;margin:8px 0 0;font-size:15px;line-height:1.55;">
+            <dt style="font-weight:500;">Para qué sirve</dt><dd style="margin:0;">crear conexión. Que el espectador se reconozca en lo que escucha.</dd>
+            <dt style="font-weight:500;">De qué habla</dt><dd style="margin:0;">momentos de la vida de Jaime y de sus obras: la beca a Italia, la herencia de los cuadros de su madre, vivir bonito aunque sea debajo de una escalera.</dd>
+            <dt style="font-weight:500;">Formato</dt><dd style="margin:0;">video narrado o fragmento de entrevista.</dd>
+            <dt style="font-weight:500;">Dónde vive</dt><dd style="margin:0;">Instagram y YouTube.</dd>
+          </dl>
+        </div>
+        <sc-if value="{{ showImages }}" hint-placeholder-val="{{ true }}">
+          <figure style="flex:0 1 200px;margin:0;"><div style="aspect-ratio:9/16;background:var(--color-surface);"><img src="assets/jaime-historias.webp" alt="Jaime sentado en un sillón de piel, contando una historia" style="width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block;"></div><figcaption style="font-size:12px;margin-top:var(--space-2);color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">9:16 · Historias que enseñan</figcaption></figure>
+        </sc-if>
+      </article>
+
+      <article style="border-top:2px solid var(--jl-tierra);padding:32px 0 40px;display:flex;flex-wrap:wrap;gap:32px;">
+        <div style="flex:3 1 320px;min-width:0;display:flex;flex-direction:column;gap:14px;">
+          <span style="font-size:12px;letter-spacing:0.16em;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">7.3</span>
+          <h3 style="font-size:26px;font-weight:400;margin:0;">Declaraciones de postura</h3>
+          <dl style="display:grid;grid-template-columns:minmax(110px,auto) minmax(0,1fr);gap:10px 20px;margin:8px 0 0;font-size:15px;line-height:1.55;">
+            <dt style="font-weight:500;">Para qué sirve</dt><dd style="margin:0;">dar autoridad y diferenciar. Aquí Jaime declara una postura propia sobre la arquitectura.</dd>
+            <dt style="font-weight:500;">De qué habla</dt><dd style="margin:0;">"Nunca existe algo imposible", la Capilla Sixtina a la que siempre vuelve, la proporción y la belleza.</dd>
+            <dt style="font-weight:500;">Formato</dt><dd style="margin:0;">video de 25 a 40 segundos que empieza con Jaime real y cruza a una escena generada con IA que vuelve visible la idea.</dd>
+            <dt style="font-weight:500;">Dónde vive</dt><dd style="margin:0;">Instagram y LinkedIn.</dd>
+          </dl>
+          <p style="font-size:14.5px;line-height:1.5;margin:8px 0 0;padding:12px 16px;background:var(--color-surface);"><strong style="font-weight:600;">Regla:</strong> cada Manifiesto lo aprueba Jaime línea por línea antes de publicarse.</p>
+        </div>
+        <sc-if value="{{ showImages }}" hint-placeholder-val="{{ true }}">
+          <figure style="flex:0 1 200px;margin:0;"><div style="aspect-ratio:9/16;background:var(--color-surface);"><img src="assets/jaime-manifiestos.webp" alt="Jaime frente a un proyecto: mitad obra terminada, mitad boceto" style="width:100%;height:100%;object-fit:cover;object-position:center 40%;display:block;"></div><figcaption style="font-size:12px;margin-top:var(--space-2);color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">9:16 · Declaraciones de postura</figcaption></figure>
+        </sc-if>
+      </article>
+
+      <article style="border-top:2px solid var(--jl-tierra);padding:32px 0 40px;display:flex;flex-wrap:wrap;gap:32px;">
+        <div style="flex:3 1 320px;min-width:0;display:flex;flex-direction:column;gap:14px;">
+          <span style="font-size:12px;letter-spacing:0.16em;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">7.4</span>
+          <h3 style="font-size:26px;font-weight:400;margin:0;">Conversaciones abiertas</h3>
+          <dl style="display:grid;grid-template-columns:minmax(110px,auto) minmax(0,1fr);gap:10px 20px;margin:8px 0 0;font-size:15px;line-height:1.55;">
+            <dt style="font-weight:500;">Para qué sirve</dt><dd style="margin:0;">construir relación y autoridad con calma.</dd>
+            <dt style="font-weight:500;">De qué habla</dt><dd style="margin:0;">liderazgo sin ego, arte y patrimonio, temas como "¿Qué hago con lo que heredé?" o "Antes de comprar un terreno".</dd>
+            <dt style="font-weight:500;">Formato</dt><dd style="margin:0;">sesión mensual en línea, <em style="font-family:var(--jl-font-editorial);">Conversaciones con Jaime Lavín</em>, y entrevistas largas en podcast.</dd>
+            <dt style="font-weight:500;">Dónde vive</dt><dd style="margin:0;">YouTube y LinkedIn.</dd>
+          </dl>
+          <p style="font-size:14.5px;line-height:1.5;margin:8px 0 0;padding:12px 16px;background:var(--color-surface);"><strong style="font-weight:600;">Regla:</strong> la historia de su encuentro con el Papa solo se cuenta aquí, en formato largo, nunca en video corto.</p>
+        </div>
+        <sc-if value="{{ showImages }}" hint-placeholder-val="{{ true }}">
+          <figure style="flex:1 1 280px;margin:0;"><div style="aspect-ratio:16/9;background:var(--color-surface);"><img src="assets/jaime-conversaciones.webp" alt="Jaime conversando con un invitado en un set con libreros y micrófonos" style="width:100%;height:100%;object-fit:cover;object-position:center 35%;display:block;"></div><figcaption style="font-size:12px;margin-top:var(--space-2);color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">16:9 · Conversaciones abiertas</figcaption></figure>
+        </sc-if>
+      </article>
+
+      <article style="border-top:2px solid var(--jl-tierra);padding:32px 0 40px;display:flex;flex-wrap:wrap;gap:32px;">
+        <div style="flex:3 1 320px;min-width:0;display:flex;flex-direction:column;gap:14px;">
+          <span style="font-size:12px;letter-spacing:0.16em;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">7.5</span>
+          <h3 style="font-size:26px;font-weight:400;margin:0;">Ideas escritas en LinkedIn</h3>
+          <dl style="display:grid;grid-template-columns:minmax(110px,auto) minmax(0,1fr);gap:10px 20px;margin:8px 0 0;font-size:15px;line-height:1.55;">
+            <dt style="font-weight:500;">Para qué sirve</dt><dd style="margin:0;">autoridad profesional frente a empresarios, desarrolladores y aliados.</dd>
+            <dt style="font-weight:500;">De qué habla</dt><dd style="margin:0;">liderazgo, equipo, resiliencia y lo que la arquitectura enseña a cualquier empresa.</dd>
+            <dt style="font-weight:500;">Formato</dt><dd style="margin:0;">una idea escrita por semana, con una sentencia de cierre, y dos publicaciones breves.</dd>
+            <dt style="font-weight:500;">Dónde vive</dt><dd style="margin:0;">primero en el perfil personal de Jaime y después en la página de Lazza.</dd>
+          </dl>
+        </div>
+        <sc-if value="{{ showImages }}" hint-placeholder-val="{{ true }}">
+          <figure style="flex:0 1 240px;margin:0;"><div style="aspect-ratio:4/5;background:var(--color-surface);"><img src="assets/jaime-linkedin.webp" alt="Jaime en obra revisando planos con su equipo" style="width:100%;height:100%;object-fit:cover;object-position:center 50%;display:block;"></div><figcaption style="font-size:12px;margin-top:var(--space-2);color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">4:5 · Ideas escritas en LinkedIn</figcaption></figure>
+        </sc-if>
+      </article>
+
+      <article style="border-top:2px solid var(--jl-tierra);padding:32px 0 8px;display:flex;flex-wrap:wrap;gap:32px;">
+        <div style="flex:3 1 320px;min-width:0;display:flex;flex-direction:column;gap:14px;">
+          <span style="font-size:12px;letter-spacing:0.16em;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">7.6</span>
+          <h3 style="font-size:26px;font-weight:400;margin:0;">La Mesa de Jaime</h3>
+          <dl style="display:grid;grid-template-columns:minmax(110px,auto) minmax(0,1fr);gap:10px 20px;margin:8px 0 0;font-size:15px;line-height:1.55;">
+            <dt style="font-weight:500;">Para qué sirve</dt><dd style="margin:0;">convertir su forma natural de recibir en una experiencia de marca y en relaciones de alto valor.</dd>
+            <dt style="font-weight:500;">Qué es</dt><dd style="margin:0;">cenas de 8 a 10 personas en su casa, con un invitado experto y una conversación que nadie quiere terminar.</dd>
+            <dt style="font-weight:500;">Dónde vive</dt><dd style="margin:0;">en persona. Del encuentro salen fragmentos para Historias y Conversaciones, siempre con permiso de los invitados.</dd>
+          </dl>
+        </div>
+        <sc-if value="{{ showImages }}" hint-placeholder-val="{{ true }}">
+          <figure style="flex:1 1 280px;margin:0;"><div style="aspect-ratio:16/9;background:var(--color-surface);"><img src="assets/jaime-mesa.webp" alt="Jaime de pie con una copa, hablando ante una mesa larga al anochecer" style="width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block;"></div><figcaption style="font-size:12px;margin-top:var(--space-2);color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">16:9 · La mesa de Jaime</figcaption></figure>
+        </sc-if>
+      </article>
+    </div>
+  </section>
+
+  <section id="gancho" data-screen-label="09 Gancho" style="border-top:2px solid var(--jl-tierra);padding:88px 0;display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">
+      <span style="font-weight:600;color:var(--jl-carbon);">09</span><span>El gancho</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-0.015em;margin:0 0 20px;">Cómo empieza cada historia</h2>
+      <p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:clamp(19px,1.7vw,23px);line-height:1.55;max-width:56ch;margin:0 0 40px;">El gancho deja una pregunta abierta en la mente de quien escucha. La historia existe para responderla.</p>
+      <h3 style="font-size:12px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;margin:0 0 12px;">La estructura</h3>
+      <div style="display:flex;flex-direction:column;border-top:2px solid var(--jl-carbon);margin-bottom:56px;">
+        <div style="display:grid;grid-template-columns:minmax(90px,130px) minmax(0,1fr);gap:8px 24px;padding:20px 0;border-bottom:2px solid var(--jl-tierra);align-items:baseline;"><span style="font-size:13px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;">Personaje</span><div style="display:flex;flex-direction:column;gap:6px;"><p style="font-size:16px;line-height:1.55;margin:0;">Quién vive la historia. El cliente es protagonista; Jaime es el guía.</p><p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:19px;line-height:1.45;margin:0;">"Unos tíos míos..."</p></div></div>
+        <div style="display:grid;grid-template-columns:minmax(90px,130px) minmax(0,1fr);gap:8px 24px;padding:20px 0;border-bottom:2px solid var(--jl-tierra);align-items:baseline;"><span style="font-size:13px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;">Situación concreta</span><div style="display:flex;flex-direction:column;gap:6px;"><p style="font-size:16px;line-height:1.55;margin:0;">Un hecho, un lugar o una decisión que se pueda ver.</p><p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:19px;line-height:1.45;margin:0;">"...hicieron una casa espectacular."</p></div></div>
+        <div style="display:grid;grid-template-columns:minmax(90px,130px) minmax(0,1fr);gap:8px 24px;padding:20px 0;border-bottom:2px solid var(--jl-tierra);align-items:baseline;"><span style="font-size:13px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;">Contradicción</span><div style="display:flex;flex-direction:column;gap:6px;"><p style="font-size:16px;line-height:1.55;margin:0;">Lo que no encaja con lo esperado. Abre la pregunta.</p><p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:19px;line-height:1.45;margin:0;">"En el lugar equivocado."</p></div></div>
+        <div style="display:grid;grid-template-columns:minmax(90px,130px) minmax(0,1fr);gap:8px 24px;padding:20px 0;border-bottom:2px solid var(--jl-carbon);align-items:baseline;"><span style="font-size:13px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--color-accent-700);">Pregunta</span><p style="font-size:16px;line-height:1.55;margin:0;">Lo que el público se queda pensando: <em style="font-family:var(--jl-font-editorial);font-size:18px;">¿cómo puede estar mal una casa bien diseñada?</em> Antes del final, la historia la responde.</p></div>
+      </div>
+      <h3 style="font-size:12px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;margin:0 0 12px;">Qué es gancho y qué no</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0;border-top:2px solid var(--jl-carbon);border-bottom:2px solid var(--jl-carbon);margin-bottom:56px;">
+        <div style="padding:20px 20px 20px 0;display:flex;flex-direction:column;gap:10px;"><span style="font-size:13px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;">Tesis</span><p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:18px;line-height:1.45;margin:0;">"Antes de diseñar tu casa hay una decisión más importante."</p><p style="font-size:14px;line-height:1.5;margin:0;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Da la conclusión desde el inicio.</p></div>
+        <div style="padding:20px;border-left:2px solid var(--jl-tierra);display:flex;flex-direction:column;gap:10px;"><span style="font-size:13px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;">Contexto</span><p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:18px;line-height:1.45;margin:0;">"Un cliente estaba buscando el terreno ideal."</p><p style="font-size:14px;line-height:1.5;margin:0;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Inicia la situación, sin tensión.</p></div>
+        <div style="padding:20px;border-left:2px solid var(--jl-tierra);background:var(--color-surface);display:flex;flex-direction:column;gap:10px;"><span style="font-size:13px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--color-accent-700);">Gancho</span><p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:18px;line-height:1.45;margin:0;">"La casa era espectacular. El problema fue dónde la construyeron."</p><p style="font-size:14px;line-height:1.5;margin:0;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Presenta una contradicción y deja la pregunta pendiente.</p></div>
+      </div>
+      <h3 style="font-size:12px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;margin:0 0 20px;">Cuatro formas de abrir</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:40px;">
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;display:flex;flex-direction:column;gap:12px;"><h3 style="font-size:12px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;margin:0;">Intriga y contradicción</h3><p style="font-size:16px;line-height:1.55;margin:0;">Un hecho que no encaja con lo esperado.</p><p style="font-family:var(--jl-font-editorial);font-style:italic;font-weight:300;font-size:19px;line-height:1.4;margin:0;">"La casa era espectacular. El problema fue dónde la construyeron."</p></div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;display:flex;flex-direction:column;gap:12px;"><h3 style="font-size:12px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;margin:0;">Identificación humana</h3><p style="font-size:16px;line-height:1.55;margin:0;">Una realidad compartida, sin filosofar.</p><p style="font-family:var(--jl-font-editorial);font-style:italic;font-weight:300;font-size:19px;line-height:1.4;margin:0;">"La casa donde crecieron tus hijos ya no se usa de la misma manera."</p></div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;display:flex;flex-direction:column;gap:12px;"><h3 style="font-size:12px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;margin:0;">Revelación de lo invisible</h3><p style="font-size:16px;line-height:1.55;margin:0;">El contraste entre lo evidente y lo importante.</p><p style="font-family:var(--jl-font-editorial);font-style:italic;font-weight:300;font-size:19px;line-height:1.4;margin:0;">"Dos terrenos pueden tener los mismos metros y ofrecerte dos vidas completamente distintas."</p></div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;display:flex;flex-direction:column;gap:12px;"><h3 style="font-size:12px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;margin:0;">Resultado inesperado</h3><p style="font-size:16px;line-height:1.55;margin:0;">Un resultado específico que deja abierta la causa.</p><p style="font-family:var(--jl-font-editorial);font-style:italic;font-weight:300;font-size:19px;line-height:1.4;margin:0;">"Para crear un guardarropa acorde con su vida, hubo que eliminar una habitación."</p></div>
+      </div>
+      <div style="background:var(--color-surface);padding:24px 28px;margin-top:40px;">
+        <p style="font-size:16px;line-height:1.6;margin:0;"><strong style="font-weight:600;">Regla:</strong> solo hechos confirmados. Si la historia no puede responder la pregunta del gancho, se cambia el gancho.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="guion" data-screen-label="10 Guion" style="border-top:2px solid var(--jl-tierra);padding:88px 0;display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">
+      <span style="font-weight:600;color:var(--jl-carbon);">10</span><span>Así se ve un guion</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-0.015em;margin:0 0 36px;">Ejemplo: Antes de decidir</h2>
+      <div style="display:flex;flex-direction:column;border-top:2px solid var(--jl-carbon);">
+        <div style="display:grid;grid-template-columns:minmax(90px,120px) minmax(90px,130px) minmax(0,1fr);gap:16px 24px;padding:20px 0;border-bottom:2px solid var(--jl-tierra);align-items:baseline;"><span style="font-size:13px;font-feature-settings:'tnum' 1;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">0 a 3 s</span><span style="font-size:13px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;">Gancho</span><p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:19px;line-height:1.5;margin:0;">"Unos tíos míos hicieron una casa espectacular. En el lugar equivocado."</p></div>
+        <div style="display:grid;grid-template-columns:minmax(90px,120px) minmax(90px,130px) minmax(0,1fr);gap:16px 24px;padding:20px 0;border-bottom:2px solid var(--jl-tierra);align-items:baseline;"><span style="font-size:13px;font-feature-settings:'tnum' 1;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">3 a 12 s</span><span style="font-size:13px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;">Persona</span><p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:19px;line-height:1.5;margin:0;">"Cuando por fin me la enseñaron, ya estaba terminada. De regreso se voltearon a ver y me dijeron: ¿por qué no te llamamos antes de comprar el terreno?"</p></div>
+        <div style="display:grid;grid-template-columns:minmax(90px,120px) minmax(90px,130px) minmax(0,1fr);gap:16px 24px;padding:20px 0;border-bottom:2px solid var(--jl-tierra);align-items:baseline;"><span style="font-size:13px;font-feature-settings:'tnum' 1;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">12 a 22 s</span><span style="font-size:13px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;">Postura</span><p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:19px;line-height:1.5;margin:0;">"La casa era increíble, pero no tenía nada que ver con el lugar. Hoy sus hijos no la pueden vender."</p></div>
+        <div style="display:grid;grid-template-columns:minmax(90px,120px) minmax(90px,130px) minmax(0,1fr);gap:16px 24px;padding:20px 0;border-bottom:2px solid var(--jl-tierra);align-items:baseline;"><span style="font-size:13px;font-feature-settings:'tnum' 1;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">22 a 30 s</span><span style="font-size:13px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;">Sentencia</span><p style="font-family:var(--jl-font-editorial);font-style:italic;font-weight:400;font-size:21px;line-height:1.45;margin:0;">"La decisión más importante de tu casa no se toma en el plano. Se toma cuando eliges dónde."</p></div>
+        <div style="display:grid;grid-template-columns:minmax(90px,120px) minmax(90px,130px) minmax(0,1fr);gap:16px 24px;padding:20px 0;border-bottom:2px solid var(--jl-carbon);align-items:baseline;"><span style="font-size:13px;font-feature-settings:'tnum' 1;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">30 a 35 s</span><span style="font-size:13px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;">Marca</span><p style="font-size:16px;line-height:1.5;margin:0;">Firma: Jaime Lavín. En pantalla: <em style="font-family:var(--jl-font-editorial);font-size:18px;">Habla con Jaime antes de decidir.</em></p></div>
+      </div>
+      <sc-if value="{{ showNotes }}" hint-placeholder-val="{{ true }}"><p style="font-size:13px;line-height:1.5;margin:20px 0 0;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Pendiente de aprobación de Jaime y de su permiso para contar la historia de su familia.</p></sc-if>
+    </div>
+  </section>
+
+  <section id="voz" data-screen-label="11 Voz" style="border-top:2px solid var(--jl-tierra);padding:88px 0;display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">
+      <span style="font-weight:600;color:var(--jl-carbon);">11</span><span>Cómo habla Jaime</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-0.015em;margin:0 0 40px;">Formal en el respeto, cálido en el trato</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:40px;">
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;">
+          <h3 style="font-size:12px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;margin:0 0 16px;">Cómo cuenta las cosas</h3>
+          <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;font-size:16px;line-height:1.55;">
+            <li style="padding:10px 0;border-bottom:1px solid var(--jl-tierra);">Empieza con una escena, no con una idea.</li>
+            <li style="padding:10px 0;border-bottom:1px solid var(--jl-tierra);">Revive diálogos: "Y me dice... y le dije...".</li>
+            <li style="padding:10px 0;border-bottom:1px solid var(--jl-tierra);">Habla en tríadas: "disfrute, conviva, comparta".</li>
+            <li style="padding:10px 0;">Usa referentes culturales como prueba: la Capilla Sixtina, la Sagrada Familia, Walt Disney.</li>
+          </ul>
+        </div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;">
+          <h3 style="font-size:12px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;margin:0 0 16px;">Frases que cierran sus piezas</h3>
+          <ol style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;font-family:var(--jl-font-editorial);font-style:italic;font-weight:300;font-size:19px;line-height:1.4;">
+            <li style="padding:10px 0;border-bottom:1px solid var(--jl-tierra);">Las palabras convencen, pero el ejemplo arrastra.</li>
+            <li style="padding:10px 0;border-bottom:1px solid var(--jl-tierra);">Cuando pierdas, nunca pierdas el aprendizaje.</li>
+            <li style="padding:10px 0;border-bottom:1px solid var(--jl-tierra);">Hay que vivir bonito, aunque sea debajo de una escalera.</li>
+            <li style="padding:10px 0;border-bottom:1px solid var(--jl-tierra);">Si quieres llegar lejos, ve acompañado.</li>
+            <li style="padding:10px 0;">Los grandes sueños no se cumplen por suerte; se construyen con propósito.</li>
+          </ol>
+        </div>
+      </div>
+      <div style="background:var(--color-surface);padding:24px 28px;margin-top:40px;">
+        <p style="font-size:16px;line-height:1.6;margin:0;"><strong style="font-weight:600;">Lo que Jaime nunca dice en público:</strong> críticas a colegas, opiniones políticas, promesas de plazo o costo, ni "te garantizo que".</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="lazza" data-screen-label="12 Jaime y Lazza" style="border-top:2px solid var(--jl-tierra);padding:88px 0;display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">
+      <span style="font-weight:600;color:var(--jl-carbon);">12</span><span>Jaime y Lazza</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-0.015em;margin:0 0 36px;">Jaime es la historia; Lazza es la evidencia</h2>
+      <div style="overflow-x:auto;">
+        <table class="table" style="width:100%;border-collapse:collapse;font-size:15.5px;line-height:1.5;">
+          <thead><tr><th style="border-bottom:2px solid var(--jl-carbon);">Cuenta</th><th style="border-bottom:2px solid var(--jl-carbon);">Qué publica</th><th style="border-bottom:2px solid var(--jl-carbon);">Cómo habla</th></tr></thead>
+          <tbody>
+            <tr><td style="font-weight:500;">Jaime</td><td>Ideas, historias, consejo y conversaciones</td><td>En primera persona: "yo"</td></tr>
+            <tr><td style="font-weight:500;">Lazza Arquitectos</td><td>Obras, proceso y resultados</td><td>En plural: "en Lazza"</td></tr>
+            <tr><td style="font-weight:500;">Publicación conjunta</td><td>La misma pieza en las dos cuentas, para sumar audiencias</td><td>La voz de quien publica</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:20px;line-height:1.55;max-width:56ch;margin:36px 0 0;">Jaime explica por qué se tomó una decisión; Lazza muestra lo que se construyó. Las cuentas colaboran, nunca se repiten.</p>
+      <sc-if value="{{ showImages }}" hint-placeholder-val="{{ true }}">
+        <figure style="margin:40px 0 0;"><div style="aspect-ratio:4/3;background:var(--color-surface);"><img src="assets/jaime-y-lazza.webp" alt="Dos pantallas: video de Jaime en un terreno y carrusel de Lazza con la casa terminada" style="width:100%;height:100%;object-fit:cover;display:block;"></div><figcaption style="font-size:12px;margin-top:var(--space-2);color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Jaime cuenta la historia; Lazza muestra la obra</figcaption></figure>
+      </sc-if>
+    </div>
+  </section>
+
+  <section id="lamzo" data-screen-label="13 Miguel y Lamzo" style="border-top:2px solid var(--jl-tierra);padding:88px 0;display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">
+      <span style="font-weight:600;color:var(--jl-carbon);">13</span><span>Miguel y Lamzo</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-0.015em;margin:0 0 20px;">Cómo colaboramos con Miguel y Lamzo</h2>
+      <p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:clamp(19px,1.7vw,23px);line-height:1.55;max-width:56ch;margin:0 0 40px;">Jaime es fundador de Lamzo junto con su socio Miguel, con quien trabaja los proyectos. Lamzo hace el interiorismo y fabrica el mobiliario. Con Lazza y Lamzo, la marca de Jaime acompaña desde el terreno hasta el último mueble.</p>
+      <div style="overflow-x:auto;">
+        <table class="table" style="width:100%;border-collapse:collapse;font-size:15.5px;line-height:1.5;">
+          <thead><tr><th style="border-bottom:2px solid var(--jl-carbon);">Cuenta</th><th style="border-bottom:2px solid var(--jl-carbon);">Qué publica</th><th style="border-bottom:2px solid var(--jl-carbon);">Ejemplo con un mismo proyecto</th></tr></thead>
+          <tbody>
+            <tr><td style="font-weight:500;">Jaime</td><td>Por qué se tomó cada decisión, en primera persona</td><td>"Por qué este mueble se hizo a la medida de esta familia"</td></tr>
+            <tr><td style="font-weight:500;">Lamzo</td><td>Interiorismo y mobiliario que fabrica, en su propia voz: "en Lamzo"</td><td>Pieza sobre el mueble y los materiales de ese proyecto</td></tr>
+            <tr><td style="font-weight:500;">Colaboración Jaime y Miguel</td><td>La misma pieza en ambas cuentas, para sumar audiencias. Es el único espacio donde aparece Miguel</td><td>Reel de Jaime y Miguel sobre un proyecto que trabajaron juntos</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:40px;margin-top:48px;">
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;">
+          <h3 style="font-size:12px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;margin:0 0 16px;">Reglas de la colaboración</h3>
+          <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;font-size:16px;line-height:1.55;">
+            <li style="padding:10px 0;border-bottom:1px solid var(--jl-tierra);">Miguel aparece solo en piezas colaborativas y con su aprobación.</li>
+            <li style="padding:10px 0;border-bottom:1px solid var(--jl-tierra);">En las demás piezas de Jaime, las historias donde participa Miguel se cuentan sin nombrarlo.</li>
+            <li style="padding:10px 0;border-bottom:1px solid var(--jl-tierra);">Jaime habla de Lamzo como fundador, en su propia voz. No imita el registro de la cuenta de Lamzo ni firma sus piezas.</li>
+            <li style="padding:10px 0;">Cada cuenta habla de su disciplina: Lazza de arquitectura, Lamzo de interiorismo y mobiliario.</li>
+          </ul>
+        </div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;">
+          <h3 style="font-size:12px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;margin:0 0 16px;">Por acordar con Jaime y Miguel</h3>
+          <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;font-size:16px;line-height:1.55;">
+            <li style="padding:10px 0;border-bottom:1px solid var(--jl-tierra);">Cómo funcionan las piezas colaborativas.</li>
+            <li style="padding:10px 0;">Quién aprueba cada pieza antes de publicarla.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reputacion" data-screen-label="14 Reputación" style="border-top:2px solid var(--jl-tierra);padding:88px 0;display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">
+      <span style="font-weight:600;color:var(--jl-carbon);">14</span><span>Reputación fuera de redes</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-0.015em;margin:0 0 40px;">Que otros hablen de Jaime</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px 40px;">
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;"><h3 style="font-size:19px;font-weight:500;margin:0 0 10px;">Medios</h3><p style="font-size:15.5px;line-height:1.6;margin:0;">Entrevistas largas en podcast y relaciones que ya existen con programas donde Jaime ha participado.</p></div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;"><h3 style="font-size:19px;font-weight:500;margin:0 0 10px;">Ponencias</h3><p style="font-size:15.5px;line-height:1.6;margin:0;">Emprendimiento, liderazgo, empatía y resiliencia, los temas que él mismo eligió.</p></div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;"><h3 style="font-size:19px;font-weight:500;margin:0 0 10px;">Alianzas</h3><p style="font-size:15.5px;line-height:1.6;margin:0;">Primero con quienes ya tiene relación personal (materiales, diseño, cultura); las marcas de diseño internacionales son una meta de mediano plazo. Su ventaja única: también es escultor.</p></div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;"><h3 style="font-size:19px;font-weight:500;margin:0 0 10px;">Reconocimientos</h3><p style="font-size:15.5px;line-height:1.6;margin:0;">Medalla de oro en la XII Bienal Iberoamericana CIDI (2023 a 2024), según el registro de Lazza.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ruta" data-screen-label="15 Hoja de ruta" style="border-top:2px solid var(--jl-tierra);padding:88px 0;display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">
+      <span style="font-weight:600;color:var(--jl-carbon);">15</span><span>Hoja de ruta</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-0.015em;margin:0 0 40px;">Primero lo que no se puede copiar</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));border-left:2px solid var(--jl-tierra);">
+        <div style="padding:20px;background:var(--jl-carbon);color:var(--jl-marfil);display:flex;flex-direction:column;gap:10px;border-top:2px solid var(--jl-carbon);">
+          <span style="font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:var(--jl-tierra);">Sprint 1 · Ahora</span>
+          <h3 style="font-size:19px;font-weight:500;margin:0;color:var(--jl-marfil);">Propiedad intelectual</h3>
+          <p style="font-size:13px;margin:0;color:var(--jl-tierra);">14 de octubre a 8 de noviembre de 2026</p>
+          <p style="font-size:14.5px;line-height:1.5;margin:0;">Ideas, voz, historias y las tres historias de aprendizaje de Jaime</p>
+        </div>
+        <div style="padding:20px;border-top:2px solid var(--jl-tierra);border-right:2px solid var(--jl-tierra);display:flex;flex-direction:column;gap:10px;">
+          <span style="font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Sprint 2</span>
+          <h3 style="font-size:19px;font-weight:500;margin:0;">Sistema editorial</h3>
+          <p style="font-size:13px;margin:0;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">9 de noviembre a 6 de diciembre de 2026</p>
+          <p style="font-size:14.5px;line-height:1.5;margin:0;">Formatos, perfiles y las primeras 6 piezas</p>
+        </div>
+        <div style="padding:20px;border-top:2px solid var(--jl-tierra);border-right:2px solid var(--jl-tierra);display:flex;flex-direction:column;gap:10px;">
+          <span style="font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Sprint 3</span>
+          <h3 style="font-size:19px;font-weight:500;margin:0;">Conversión</h3>
+          <p style="font-size:13px;margin:0;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Diciembre de 2026 a enero de 2027</p>
+          <p style="font-size:14.5px;line-height:1.5;margin:0;">Web personal, formulario y agenda</p>
+        </div>
+        <div style="padding:20px;border-top:2px solid var(--jl-tierra);border-right:2px solid var(--jl-tierra);display:flex;flex-direction:column;gap:10px;">
+          <span style="font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Sprint 4</span>
+          <h3 style="font-size:19px;font-weight:500;margin:0;">Alcance</h3>
+          <p style="font-size:13px;margin:0;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Febrero a marzo de 2027</p>
+          <p style="font-size:14.5px;line-height:1.5;margin:0;">Primera Conversación, primera Mesa de Jaime y alianzas</p>
+        </div>
+        <div style="padding:20px;border-top:2px solid var(--jl-tierra);border-right:2px solid var(--jl-tierra);display:flex;flex-direction:column;gap:10px;">
+          <span style="font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Sprint 5</span>
+          <h3 style="font-size:19px;font-weight:500;margin:0;">Mejora</h3>
+          <p style="font-size:13px;margin:0;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">Abril a octubre de 2027</p>
+          <p style="font-size:14.5px;line-height:1.5;margin:0;">Medir qué ideas abren conversaciones y revisar el año</p>
+        </div>
+      </div>
+      <p style="font-size:16px;line-height:1.6;max-width:64ch;margin:32px 0 0;padding-top:20px;border-top:2px solid var(--jl-tierra);">Cada etapa avanza solo cuando Jaime aprueba la anterior. Las piezas de mayor alcance se concentran en enero, febrero, agosto y septiembre, los meses con más búsquedas de arquitectura.</p>
+    </div>
+  </section>
+
+  <section id="medicion" data-screen-label="16 Medición" style="border-top:2px solid var(--jl-tierra);padding:88px 0;display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">
+      <span style="font-weight:600;color:var(--jl-carbon);">16</span><span>Cómo sabremos que funciona</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-0.015em;margin:0 0 20px;">Dos indicadores, nada más</h2>
+      <p style="font-size:17px;line-height:1.6;margin:0 0 36px;">A Jaime se le reportan solo dos cosas:</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:32px 40px;">
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;"><p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:36px;line-height:1;margin:0 0 16px;color:var(--jl-piedra);">1</p><h3 style="font-size:20px;font-weight:500;margin:0 0 10px;">Posicionamiento</h3><p style="font-size:15.5px;line-height:1.6;margin:0;">Alcance a personas nuevas, videos que se guardan y comparten, invitaciones a medios y ponencias, y que su nombre empiece a buscarse en Google.</p></div>
+        <div style="border-top:2px solid var(--jl-carbon);padding-top:18px;"><p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:36px;line-height:1;margin:0 0 16px;color:var(--jl-piedra);">2</p><h3 style="font-size:20px;font-weight:500;margin:0 0 10px;">Contactos calificados</h3><p style="font-size:15.5px;line-height:1.6;margin:0;">Personas con un proyecto real que escriben por la web o por WhatsApp.</p></div>
+      </div>
+      <p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:19px;line-height:1.55;max-width:58ch;margin:40px 0 0;">Las citas, cotizaciones y proyectos se miden por dentro para aprender, pero no se presentan como logro del contenido. La venta la cierra Jaime; el contenido abre la puerta.</p>
+    </div>
+  </section>
+
+  <section id="cuidado" data-screen-label="17 Lo que cuidamos" style="border-top:2px solid var(--jl-tierra);padding:88px 0;display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:color-mix(in srgb,var(--jl-carbon) 72%,transparent);">
+      <span style="font-weight:600;color:var(--jl-carbon);">17</span><span>Lo que cuidamos</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(32px,4vw,52px);font-weight:400;line-height:1.08;letter-spacing:-0.015em;margin:0 0 36px;">Lo que nunca se publica</h2>
+      <ul style="list-style:none;margin:0;padding:0;border-top:2px solid var(--jl-carbon);font-size:17px;line-height:1.5;">
+        <li style="padding:16px 0;border-bottom:2px solid var(--jl-tierra);">Plazos o precios como promesa.</li>
+        <li style="padding:16px 0;border-bottom:2px solid var(--jl-tierra);">Política, figuras públicas o comparaciones con colegas.</li>
+        <li style="padding:16px 0;border-bottom:2px solid var(--jl-tierra);">Clientes, familia o terceros sin su permiso.</li>
+        <li style="padding:16px 0;border-bottom:2px solid var(--jl-tierra);">Sueños de Jaime (como las ciudades o las casas de retiro) presentados como proyectos en curso.</li>
+        <li style="padding:16px 0;border-bottom:2px solid var(--jl-tierra);">Historias que Jaime decidió contar solo en formato largo.</li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+<section id="siguiente-paso" data-screen-label="18 Siguiente paso" style="display:none;background:var(--jl-carbon);color:var(--jl-marfil);">
+  <div style="max-width:1200px;margin:0 auto;padding:96px clamp(20px,5vw,72px);display:flex;flex-wrap:wrap;gap:24px 56px;">
+    <div style="flex:1 1 180px;max-width:240px;display:flex;flex-direction:column;gap:var(--space-2);font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:var(--jl-tierra);">
+      <span style="font-weight:600;color:var(--jl-marfil);">18</span><span>Lo que necesitamos de Jaime</span>
+    </div>
+    <div style="flex:3 1 520px;min-width:0;">
+      <h2 style="font-size:clamp(36px,5vw,64px);font-weight:400;line-height:1.05;letter-spacing:-0.02em;margin:0 0 20px;color:var(--jl-marfil);">Para empezar, necesitamos tu voz</h2>
+      <p style="font-family:var(--jl-font-editorial);font-weight:300;font-size:20px;line-height:1.55;margin:0 0 40px;color:var(--jl-marfil);">Con estas respuestas cerramos el Sprint 1 y empezamos a publicar.</p>
+      <ol style="list-style:none;margin:0;padding:0;border-top:2px solid var(--jl-marfil);font-size:17px;line-height:1.5;">
+        <li style="display:grid;grid-template-columns:40px minmax(0,1fr);gap:16px;padding:18px 0;border-bottom:2px solid color-mix(in srgb,var(--jl-tierra) 35%,var(--jl-carbon));"><span style="font-family:var(--jl-font-editorial);color:var(--jl-tierra);">1</span><span>Tus tres historias de aprendizaje o momentos difíciles.</span></li>
+        <li style="display:grid;grid-template-columns:40px minmax(0,1fr);gap:16px;padding:18px 0;border-bottom:2px solid color-mix(in srgb,var(--jl-tierra) 35%,var(--jl-carbon));"><span style="font-family:var(--jl-font-editorial);color:var(--jl-tierra);">2</span><span>Un proyecto residencial con nombre que represente tu forma de trabajar.</span></li>
+        <li style="display:grid;grid-template-columns:40px minmax(0,1fr);gap:16px;padding:18px 0;border-bottom:2px solid color-mix(in srgb,var(--jl-tierra) 35%,var(--jl-carbon));"><span style="font-family:var(--jl-font-editorial);color:var(--jl-tierra);">3</span><span>Lo que revisas cuando visitas un terreno, en tus propias palabras.</span></li>
+        <li style="display:grid;grid-template-columns:40px minmax(0,1fr);gap:16px;padding:18px 0;border-bottom:2px solid color-mix(in srgb,var(--jl-tierra) 35%,var(--jl-carbon));"><span style="font-family:var(--jl-font-editorial);color:var(--jl-tierra);">4</span><span>Qué etapas puede prometer tu marca cuando decimos "del terreno al último detalle".</span></li>
+        <li style="display:grid;grid-template-columns:40px minmax(0,1fr);gap:16px;padding:18px 0;border-bottom:2px solid color-mix(in srgb,var(--jl-tierra) 35%,var(--jl-carbon));"><span style="font-family:var(--jl-font-editorial);color:var(--jl-tierra);">5</span><span>Cómo quieres firmar: Jaime Lavín, y dónde vive el escultor.</span></li>
+      </ol>
+      <div style="display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin-top:44px;">
+        <a href="#siguiente-paso" class="btn" style="background:var(--jl-marfil);color:var(--jl-carbon);font-weight:500;font-size:15px;padding:14px 22px;min-width:280px;justify-content:flex-start;" style-hover="background:var(--jl-tierra);">Agendar la sesión con Jaime</a>
+        <span style="font-size:14px;color:var(--jl-tierra);">Una hora para revisar la estrategia juntos.</span>
+      </div>
+      <sc-if value="{{ showImages }}" hint-placeholder-val="{{ true }}">
+        <figure style="margin:64px 0 0;"><div style="aspect-ratio:16/9;background:color-mix(in srgb,var(--jl-marfil) 6%,var(--jl-carbon));"><img src="assets/jaime-cierre-trazo.webp" alt="La mano de Jaime dibujando a lápiz una casa frente al paisaje" style="width:100%;height:100%;object-fit:cover;object-position:center 60%;display:block;"></div><figcaption style="font-size:12px;margin-top:var(--space-3);color:var(--jl-tierra);">Del terreno al primer trazo</figcaption></figure>
+      </sc-if>
+    </div>
+  </div>
+  <footer style="border-top:2px solid color-mix(in srgb,var(--jl-tierra) 35%,var(--jl-carbon));">
+    <div style="max-width:1200px;margin:0 auto;padding:40px clamp(20px,5vw,72px);display:flex;flex-wrap:wrap;gap:24px 48px;align-items:flex-start;justify-content:space-between;">
+      <div style="display:flex;align-items:center;gap:16px;">
+        <img src="assets/jl-isotipo.webp" alt="JL." style="width:44px;height:44px;object-fit:contain;filter:invert(1);mix-blend-mode:screen;">
+        <span style="display:flex;flex-direction:column;gap:4px;"><span style="font-size:17px;font-weight:500;">Jaime Lavín</span><span style="font-size:9px;letter-spacing:0.28em;color:var(--jl-tierra);">ARQUITECTURA PARA LA VIDA</span></span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:6px;font-size:13px;line-height:1.5;color:var(--jl-tierra);max-width:56ch;">
+        <span>Estrategia de marca personal de Jaime Lavín · Core Method · Preparada por BubbleMesh · Octubre de 2026</span>
+        <span>Documento interno. No compartir sin autorización de Jaime.</span>
+      </div>
+    </div>
+  </footer>
+</section>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showImages&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Contenido&quot;},&quot;showNotes&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Contenido&quot;}}">
+class Component extends DCLogic {
+  state = { slide: 0 };
+  componentDidMount() { this._t = setInterval(() => this.setState(s => ({ slide: (s.slide + 1) % 2 })), 2000); }
+  componentWillUnmount() { clearInterval(this._t); }
+  renderVals() {
+    return {
+      slideA: this.state.slide === 0 ? 1 : 0,
+      slideB: this.state.slide === 1 ? 1 : 0,
+      showImages: this.props.showImages ?? true,
+      showNotes: this.props.showNotes ?? true,
+    };
+  }
+}
+</script>
+</body>
+</html>
